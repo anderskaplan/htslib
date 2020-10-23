@@ -793,7 +793,9 @@ sub test_index
     _cmd("$$opts{bin}/tabix -fp vcf $$opts{tmp}/index.vcf.gz");
     my $wtmp = $$opts{tmp};
     if ($^O =~ /^msys/) {
-        $wtmp =~ s/\//\\\\/g;
+        $wtmp = _cmd("cygpath -w $$opts{tmp}");
+        chomp($wtmp);
+        $wtmp =~ s/\\/\\\\/g;
     }
     test_cmd($opts,out=>'tabix.out',cmd=>"$$opts{bin}/tabix $wtmp/index.vcf.gz##idx##$wtmp/index.vcf.gz.tbi 1:10000060-10000060");
 }

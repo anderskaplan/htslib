@@ -30,6 +30,7 @@ DEALINGS IN THE SOFTWARE.  */
 #include <stdlib.h>
 #include <string.h>
 #include <stdint.h>
+#include <getopt.h>
 
 #include "../cram/cram.h"
 #include "../htslib/sam.h"

@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\bcf_sr_sort.c" />
+    <ClCompile Include="..\..\bgzf.c" />
+    <ClCompile Include="..\..\cram\cram_codecs.c" />
+    <ClCompile Include="..\..\cram\cram_decode.c" />
+    <ClCompile Include="..\..\cram\cram_encode.c" />
+    <ClCompile Include="..\..\cram\cram_external.c" />
+    <ClCompile Include="..\..\cram\cram_index.c" />
+    <ClCompile Include="..\..\cram\cram_io.c" />
+    <ClCompile Include="..\..\cram\cram_samtools.c" />
+    <ClCompile Include="..\..\cram\cram_stats.c" />
+    <ClCompile Include="..\..\cram\mFILE.c" />
+    <ClCompile Include="..\..\cram\open_trace_file.c" />
+    <ClCompile Include="..\..\cram\pooled_alloc.c" />
+    <ClCompile Include="..\..\cram\rANS_static.c" />
+    <ClCompile Include="..\..\cram\string_alloc.c" />
+    <ClCompile Include="..\..\errmod.c" />
+    <ClCompile Include="..\..\faidx.c" />
+    <ClCompile Include="..\..\header.c" />
+    <ClCompile Include="..\..\hfile.c" />
+    <ClCompile Include="..\..\hfile_net.c" />
+    <ClCompile Include="..\..\hfile_s3_write.c" />
+    <ClCompile Include="..\..\hts.c" />
+    <ClCompile Include="..\..\hts_os.c" />
+    <ClCompile Include="..\..\kfunc.c" />
+    <ClCompile Include="..\..\knetfile.c" />
+    <ClCompile Include="..\..\kstring.c" />
+    <ClCompile Include="..\..\md5.c" />
+    <ClCompile Include="..\..\multipart.c" />
+    <ClCompile Include="..\..\probaln.c" />
+    <ClCompile Include="..\..\realn.c" />
+    <ClCompile Include="..\..\regidx.c" />
+    <ClCompile Include="..\..\region.c" />
+    <ClCompile Include="..\..\sam.c" />
+    <ClCompile Include="..\..\synced_bcf_reader.c" />
+    <ClCompile Include="..\..\tbx.c" />
+    <ClCompile Include="..\..\textutils.c" />
+    <ClCompile Include="..\..\thread_pool.c" />
+    <ClCompile Include="..\..\vcf.c" />
+    <ClCompile Include="..\..\vcfutils.c" />
+    <ClCompile Include="..\..\vcf_sweep.c" />
+    <ClCompile Include="..\gettimeofday.c" />
+    <ClCompile Include="..\usleep.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\bcf_sr_sort.h" />
+    <ClInclude Include="..\..\cram\cram.h" />
+    <ClInclude Include="..\..\cram\cram_codecs.h" />
+    <ClInclude Include="..\..\cram\cram_decode.h" />
+    <ClInclude Include="..\..\cram\cram_encode.h" />
+    <ClInclude Include="..\..\cram\cram_index.h" />
+    <ClInclude Include="..\..\cram\cram_io.h" />
+    <ClInclude Include="..\..\cram\cram_samtools.h" />
+    <ClInclude Include="..\..\cram\cram_stats.h" />
+    <ClInclude Include="..\..\cram\cram_structs.h" />
+    <ClInclude Include="..\..\cram\mFILE.h" />
+    <ClInclude Include="..\..\cram\misc.h" />
+    <ClInclude Include="..\..\cram\open_trace_file.h" />
+    <ClInclude Include="..\..\cram\os.h" />
+    <ClInclude Include="..\..\cram\pooled_alloc.h" />
+    <ClInclude Include="..\..\cram\rANS_byte.h" />
+    <ClInclude Include="..\..\cram\rANS_static.h" />
+    <ClInclude Include="..\..\cram\string_alloc.h" />
+    <ClInclude Include="..\..\cram\vlen.h" />
+    <ClInclude Include="..\..\cram\zfio.h" />
+    <ClInclude Include="..\..\header.h" />
+    <ClInclude Include="..\..\hfile_internal.h" />
+    <ClInclude Include="..\..\htslib\bgzf.h" />
+    <ClInclude Include="..\..\htslib\cram.h" />
+    <ClInclude Include="..\..\htslib\faidx.h" />
+    <ClInclude Include="..\..\htslib\hfile.h" />
+    <ClInclude Include="..\..\htslib\hts.h" />
+    <ClInclude Include="..\..\htslib\hts_defs.h" />
+    <ClInclude Include="..\..\htslib\hts_endian.h" />
+    <ClInclude Include="..\..\htslib\hts_log.h" />
+    <ClInclude Include="..\..\htslib\kbitset.h" />
+    <ClInclude Include="..\..\htslib\kfunc.h" />
+    <ClInclude Include="..\..\htslib\khash.h" />
+    <ClInclude Include="..\..\htslib\khash_str2int.h" />
+    <ClInclude Include="..\..\htslib\klist.h" />
+    <ClInclude Include="..\..\htslib\knetfile.h" />
+    <ClInclude Include="..\..\htslib\kroundup.h" />
+    <ClInclude Include="..\..\htslib\kseq.h" />
+    <ClInclude Include="..\..\htslib\ksort.h" />
+    <ClInclude Include="..\..\htslib\kstring.h" />
+    <ClInclude Include="..\..\htslib\regidx.h" />
+    <ClInclude Include="..\..\htslib\sam.h" />
+    <ClInclude Include="..\..\htslib\synced_bcf_reader.h" />
+    <ClInclude Include="..\..\htslib\tbx.h" />
+    <ClInclude Include="..\..\htslib\thread_pool.h" />
+    <ClInclude Include="..\..\htslib\vcf.h" />
+    <ClInclude Include="..\..\htslib\vcfutils.h" />
+    <ClInclude Include="..\..\htslib\vcf_sweep.h" />
+    <ClInclude Include="..\..\hts_internal.h" />
+    <ClInclude Include="..\..\os\lzma_stub.h" />
+    <ClInclude Include="..\..\sam_internal.h" />
+    <ClInclude Include="..\..\textutils_internal.h" />
+    <ClInclude Include="..\..\thread_pool_internal.h" />
+    <ClInclude Include="..\config.h" />
+    <ClInclude Include="..\strings.h" />
+    <ClInclude Include="..\sys\time.h" />
+    <ClInclude Include="..\unistd.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{89CBBD54-2CE4-4D6C-BC19-03DBDBBDAB68}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>msvc</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <ProjectName>libhts</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>HTS_x86;WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS;_USE_MATH_DEFINES;_CRT_NONSTDC_NO_DEPRECATE;_TIMESPEC_DEFINED;_WINSOCK_DEPRECATED_NO_WARNINGS;HAVE_FSEEKO;WIN32_LEAN_AND_MEAN;NOUSER;NOGDI;LZMA_API_STATIC</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..;..;..\zlib;..\pthreads-w32/include;..\bzip2;..\lzma\src\liblzma\api;..\curl\include</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4244;4018;4146;4267;4090</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>HTS_x86;_DEBUG;_LIB;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS;_USE_MATH_DEFINES;_CRT_NONSTDC_NO_DEPRECATE;_TIMESPEC_DEFINED;_WINSOCK_DEPRECATED_NO_WARNINGS;HAVE_FSEEKO;WIN32_LEAN_AND_MEAN;NOUSER;NOGDI;LZMA_API_STATIC</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..;..;..\zlib;..\pthreads-w32/include;..\bzip2;..\lzma\src\liblzma\api;..\curl\include</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4244;4018;4146;4267;4090</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>HTS_x86;WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS;_USE_MATH_DEFINES;_CRT_NONSTDC_NO_DEPRECATE;_TIMESPEC_DEFINED;_WINSOCK_DEPRECATED_NO_WARNINGS;HAVE_FSEEKO;WIN32_LEAN_AND_MEAN;NOUSER;NOGDI;LZMA_API_STATIC</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..;..;..\zlib;..\pthreads-w32/include;..\bzip2;..\lzma\src\liblzma\api;..\curl\include</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4244;4018;4146;4267;4090</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>HTS_x86;NDEBUG;_LIB;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS;_USE_MATH_DEFINES;_CRT_NONSTDC_NO_DEPRECATE;_TIMESPEC_DEFINED;_WINSOCK_DEPRECATED_NO_WARNINGS;HAVE_FSEEKO;WIN32_LEAN_AND_MEAN;NOUSER;NOGDI;LZMA_API_STATIC</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..;..;..\zlib;..\pthreads-w32/include;..\bzip2;..\lzma\src\liblzma\api;..\curl\include</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4244;4018;4146;4267;4090</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,336 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\htslib">
+      <UniqueIdentifier>{076f7397-f324-412b-849f-a19ba6b56d40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\msvc">
+      <UniqueIdentifier>{1f141998-a9d5-4987-9261-c3241e00a4cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\cram">
+      <UniqueIdentifier>{2481a5ca-9f69-46b3-badd-a90aee85d272}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\cram">
+      <UniqueIdentifier>{6406cf4a-1eed-46de-bc38-e4105cc440cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\msvc">
+      <UniqueIdentifier>{cd46e7ed-751e-4ccf-bcc9-0ecef82402d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\os">
+      <UniqueIdentifier>{89d5e034-cf52-4daa-a34e-5a6b626b6cd9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\bgzf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\errmod.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\faidx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\hfile.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\hfile_net.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\hts.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\kfunc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\knetfile.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\kstring.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\md5.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\multipart.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\probaln.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\realn.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\regidx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sam.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\synced_bcf_reader.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tbx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\textutils.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\thread_pool.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\vcf_sweep.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\vcfutils.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\vcf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cram\cram_codecs.c">
+      <Filter>Source Files\cram</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cram\cram_decode.c">
+      <Filter>Source Files\cram</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cram\cram_encode.c">
+      <Filter>Source Files\cram</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cram\cram_external.c">
+      <Filter>Source Files\cram</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cram\cram_index.c">
+      <Filter>Source Files\cram</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cram\cram_io.c">
+      <Filter>Source Files\cram</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cram\cram_samtools.c">
+      <Filter>Source Files\cram</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cram\cram_stats.c">
+      <Filter>Source Files\cram</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cram\mFILE.c">
+      <Filter>Source Files\cram</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cram\open_trace_file.c">
+      <Filter>Source Files\cram</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cram\pooled_alloc.c">
+      <Filter>Source Files\cram</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cram\rANS_static.c">
+      <Filter>Source Files\cram</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cram\string_alloc.c">
+      <Filter>Source Files\cram</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gettimeofday.c">
+      <Filter>Source Files\msvc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\usleep.c">
+      <Filter>Source Files\msvc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\bcf_sr_sort.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\header.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\hfile_s3_write.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\region.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\hts_os.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\htslib\bgzf.h">
+      <Filter>Header Files\htslib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\htslib\cram.h">
+      <Filter>Header Files\htslib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\htslib\faidx.h">
+      <Filter>Header Files\htslib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\htslib\hfile.h">
+      <Filter>Header Files\htslib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\htslib\hts.h">
+      <Filter>Header Files\htslib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\htslib\hts_defs.h">
+      <Filter>Header Files\htslib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\htslib\hts_endian.h">
+      <Filter>Header Files\htslib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\htslib\kbitset.h">
+      <Filter>Header Files\htslib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\htslib\kfunc.h">
+      <Filter>Header Files\htslib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\htslib\khash.h">
+      <Filter>Header Files\htslib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\htslib\khash_str2int.h">
+      <Filter>Header Files\htslib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\htslib\klist.h">
+      <Filter>Header Files\htslib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\htslib\knetfile.h">
+      <Filter>Header Files\htslib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\htslib\kseq.h">
+      <Filter>Header Files\htslib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\htslib\ksort.h">
+      <Filter>Header Files\htslib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\htslib\kstring.h">
+      <Filter>Header Files\htslib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\htslib\regidx.h">
+      <Filter>Header Files\htslib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\htslib\sam.h">
+      <Filter>Header Files\htslib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\htslib\synced_bcf_reader.h">
+      <Filter>Header Files\htslib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\htslib\tbx.h">
+      <Filter>Header Files\htslib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\htslib\thread_pool.h">
+      <Filter>Header Files\htslib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\htslib\vcf.h">
+      <Filter>Header Files\htslib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\htslib\vcf_sweep.h">
+      <Filter>Header Files\htslib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\htslib\vcfutils.h">
+      <Filter>Header Files\htslib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cram\cram.h">
+      <Filter>Header Files\cram</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cram\cram_codecs.h">
+      <Filter>Header Files\cram</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cram\cram_decode.h">
+      <Filter>Header Files\cram</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cram\cram_encode.h">
+      <Filter>Header Files\cram</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cram\cram_index.h">
+      <Filter>Header Files\cram</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cram\cram_io.h">
+      <Filter>Header Files\cram</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cram\cram_samtools.h">
+      <Filter>Header Files\cram</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cram\cram_stats.h">
+      <Filter>Header Files\cram</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cram\cram_structs.h">
+      <Filter>Header Files\cram</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cram\mFILE.h">
+      <Filter>Header Files\cram</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cram\misc.h">
+      <Filter>Header Files\cram</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cram\open_trace_file.h">
+      <Filter>Header Files\cram</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cram\os.h">
+      <Filter>Header Files\cram</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cram\pooled_alloc.h">
+      <Filter>Header Files\cram</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cram\rANS_byte.h">
+      <Filter>Header Files\cram</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cram\rANS_static.h">
+      <Filter>Header Files\cram</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cram\string_alloc.h">
+      <Filter>Header Files\cram</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cram\vlen.h">
+      <Filter>Header Files\cram</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cram\zfio.h">
+      <Filter>Header Files\cram</Filter>
+    </ClInclude>
+    <ClInclude Include="..\unistd.h">
+      <Filter>Header Files\msvc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sys\time.h">
+      <Filter>Header Files\msvc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\config.h">
+      <Filter>Header Files\msvc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\bcf_sr_sort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\hfile_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\hts_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\htslib\hts_log.h">
+      <Filter>Header Files\htslib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\strings.h">
+      <Filter>Header Files\msvc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\header.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\htslib\kroundup.h">
+      <Filter>Header Files\htslib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\os\lzma_stub.h">
+      <Filter>Header Files\os</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sam_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thread_pool_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\textutils_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,15 @@
+Debug
+Release
+*.suo
+*.opendb
+*.db
+*.user
+pthreads-w32*
+zlib/*
+!zlib/zlib.vcxproj
+bzip2/*
+!bzip2/bzip2.vcxproj
+lzma/*
+!lzma/lzma.vcxproj
+version.h
+curl/*

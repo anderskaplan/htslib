@@ -56,6 +56,12 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include "mFILE.h"
 #include "../htslib/khash.h"
 
+// workaround: the pthreads-w32 implementation of pthread_mutex_unlock crashes when
+// passed an uninitialized mutex, instead of returning EINVAL.
+#if defined(PTW32_CDECL)
+#define pthread_mutex_unlock(mutex) (((*mutex) != 0) ? pthread_mutex_unlock(mutex) : EINVAL)
+#endif
+
 #ifdef __cplusplus
 extern "C" {
 #endif

@@ -8,6 +8,8 @@
 *.pc.tmp
 *-uninstalled.pc
 /version.h
+*.exp
+*.lib
 
 autom4te.cache
 config.cache
