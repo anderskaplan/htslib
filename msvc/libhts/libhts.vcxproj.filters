@@ -156,6 +156,9 @@
     <ClCompile Include="..\..\hts_os.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\cram\cram_samtools.c">
+      <Filter>Source Files\cram</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\htslib\bgzf.h">
