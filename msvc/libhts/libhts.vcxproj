@@ -27,7 +27,6 @@
     <ClCompile Include="..\..\cram\cram_external.c" />
     <ClCompile Include="..\..\cram\cram_index.c" />
     <ClCompile Include="..\..\cram\cram_io.c" />
-    <ClCompile Include="..\..\cram\cram_samtools.c" />
     <ClCompile Include="..\..\cram\cram_stats.c" />
     <ClCompile Include="..\..\cram\mFILE.c" />
     <ClCompile Include="..\..\cram\open_trace_file.c" />

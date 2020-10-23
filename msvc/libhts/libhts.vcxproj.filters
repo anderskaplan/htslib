@@ -117,9 +117,6 @@
     <ClCompile Include="..\..\cram\cram_io.c">
       <Filter>Source Files\cram</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\cram\cram_samtools.c">
-      <Filter>Source Files\cram</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\cram\cram_stats.c">
       <Filter>Source Files\cram</Filter>
     </ClCompile>

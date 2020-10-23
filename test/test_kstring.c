@@ -29,6 +29,7 @@ DEALINGS IN THE SOFTWARE.  */
 #include <limits.h>
 #include <stdint.h>
 #include <inttypes.h>
+#include <getopt.h>
 #include <unistd.h>
 
 #include "../htslib/kstring.h"

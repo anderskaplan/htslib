@@ -29,6 +29,7 @@ DEALINGS IN THE SOFTWARE.  */
 #include <string.h>
 #include <errno.h>
 #include <limits.h>
+#include <getopt.h>
 #include <unistd.h>
 
 #include "../htslib/sam.h"
